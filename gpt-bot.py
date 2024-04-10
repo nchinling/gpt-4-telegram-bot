@@ -29,7 +29,7 @@ def is_this_user_allowed(user_id):
         return True
     else:
         return False    
-
+# ask
 def ask(question, chat_log=None):
     if chat_log is None:
         chat_log = start_convo
